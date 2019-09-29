@@ -8,7 +8,7 @@ gulp.task('sass', () => {
         .pipe(autoprefixer({
             versions: ['last 2 browsers']
         }))
-        .pipe(gulp.dest('public/css'))
+        .pipe(gulp.dest('docs/css'))
 });
 
 gulp.task('default', () => {
